@@ -1,0 +1,61 @@
+.loader-container {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create-todo-heading {
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 16px;
+  color: #000000;
+}
+.add-button {
+  background-color: #4f46e5;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 10px;
+}
+.add-todo-container {
+  text-align: center;
+}
+.display-todo-container {
+  margin: 30px;
+}
+.no-tasks-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.results-container {
+  border-radius: 8px;
+  width: 100%;
+  overflow-x: scroll;
+  max-height: 80vh;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 5px 5px #aaaaaa, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    display: flex;
+  }
+  .add-todo-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+  }
+  .display-todo-container {
+    width: 50%;
+    height: 30vh;
+    margin: 30px;
+  }
+}

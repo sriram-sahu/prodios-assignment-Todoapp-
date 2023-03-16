@@ -1,0 +1,23 @@
+###
+
+POST http://localhost:3007/users/
+Content-Type: application/json
+
+{   
+    "name":"sriram",
+    "username":"sriram",
+    "password": "sriram@2000",
+    "gender": "Male",
+    "location":"Srikakulam"
+}
+
+
+###
+
+POST http://localhost:3007/login/
+Content-Type: application/json
+
+{
+    "username":"rahul123",
+    "password": "rahul@456"
+}
